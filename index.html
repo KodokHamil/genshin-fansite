@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genshin Impact - Elements</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="assets/image/header.png" width="25%">
+            <ul class="nav-links">
+                <li><a href="#elements" id="elementsBtn"><h2>Elements</h2></a></li>
+                <li><a href="#elementalreaction" id="elementalreactionBtn"><h2>Elemental Reaction</h2></a></li>
+                <li><a href="#world" id="worldBtn"><h2>World</h2></a></li>
+                <li><a href="#nations" id="nationsBtn"><h2>Nations</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <section class="left-column">
+
+                <!-- World of Genshin Impact -->
+                <article class="card" id="world">
+                    <h2>World of Teyvat</h2>
+                    <figure>
+                        <img class="featured-image" src="assets/image/teyvat.jpg" alt="Teyvat Map" width="360" />
+                    </figure>
+                    <p>
+                        Genshin Impact adalah sebuah game role-playing game (RPG) aksi dunia terbuka yang mengambil
+                        latar dunia fantasi Teyvat.
+                        Dalam game ini, pemain berperan sebagai pengelana yang mencari saudara mereka yang hilang, dan
+                        harus menjelajahi dunia,
+                        bertemu dengan berbagai karakter,dan melawan musuh, serta membantu orang-orang yang ditemui di
+                        perjalanan. Pemain juga dapat dihibur dengan sistem gacha yang asik untuk mengkoleksi
+                        karakter-karakter.
+                    </p>
+                </article>
+
+                <article class="card" id="elements">
+                    <h2>Elements</h2>
+
+                    <table>
+                        <tr>
+                            <th>Element</th>
+                            <th>Element Information</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px">
+                                <span>Pyro</span>
+                            </td>
+                            <td>Elemen api di Genshin Impact. Cocok untuk membakar perisai kayu dan Cryo.
+                                Paling lemah terhadap elemen Hydro. Digunakan untuk reaksi Melt, Overloaded, dan
+                                Vaporize.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/cryo.png" alt="Cryo Icon" width="40px">
+                                <span>Cryo</span>
+                            </td>
+                            <td>Elemen es dalam Genshin Impact. Dapat memperlambat dan membekukan karakter.
+                                Paling lemah terhadap Elemen Pyro. Digunakan untuk reaksi Melt, Superconduct, dan
+                                Frozen.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px">
+                                <span>Electro</span>
+                            </td>
+                            <td>Elemen petir di Genshin Impact. Paling lemah terhadap Cryo dan Pyro.
+                                Digunakan untuk reaksi Overloaded, Superconduct, dan Electro-Charged.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px">
+                                <span>Hydro</span>
+                            </td>
+                            <td>Elemen air dalam Genshin Impact. Berguna untuk memadamkan api.
+                                Paling lemah terhadap Cryo dan Electro. Digunakan untuk reaksi Vaporize,
+                                Electro-Charged, dan Frozen.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/anemo.png" alt="Anemo Icon" width="40px">
+                                <span>Anemo</span>
+                            </td>
+                            <td>Elemen angin dari Genshin Impact. Sangat serbaguna dan dapat menyebarkan elemen lain
+                                kecuali Geo dan Dendro.
+                                Dianggap sebagai elemen netral. Digunakan untuk reaksi Swirl dan Elemental Absorption
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/geo.png" alt="Geo Icon" width="40px">
+                                <span>Geo</span>
+                            </td>
+                            <td>Geo adalah elemen batu dari Genshin Impact. Berguna untuk menghancurkan struktur batu
+                                dan perisai batu.
+                                Paling lemah terhadap kerusakan Geo lainnya dan reaksi Overloaded. Berinteraksi dengan
+                                elemen lain kecuali Anemo dan Dendro akan memicu efek Crystalized.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/image/logo/dendro.png" alt="Dendro Icon" width="40px">
+                                <span>Dendro</span>
+                            </td>
+                            <td>Dendro adalah elemen tanaman yang dilepaskan di Sumeru.
+                                Dendro dapat memicu beberapa reaksi dan reaksi berantai tergantung pada elemennya. Ia
+                                tidak dapat berinteraksi dengan elemen Anemo dan Geo.</td>
+                        </tr>
+                    </table>
+
+                </article>
+
+                <article class="card" id="elementalreaction">
+                    <h2>Elemental Reactions</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Reaction</th>
+                                <th>Element Order</th>
+                                <th>Reaction Effect</th>
+                            <tr>
+                                <td rowspan="2" class="center">Melt</td>
+                                <td>
+                                    <img src="assets/image/logo/cryo.png" alt="Cryo Icon" width="40px"> 1. Cryo
+                                </td>
+                                <td rowspan="2">Serangan Pyro memberikan 2x lebih banyak damage.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 2. Pyro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Reverse Melt</td>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 1. Pyro
+                                </td>
+                                <td rowspan="2">Serangan Cryo memberikan 1.5x lebih banyak damage.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/cryo.png" alt="Cryo Icon" width="40px"> 2. Cryo
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Vaporize</td>
+                                <td>
+                                    <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px"> 1. Hydro
+                                </td>
+                                <td rowspan="2">Serangan Hydro memberikan 2x lebih banyak damage.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 2. Pyro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Reverse Vaporize</td>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 1. Pyro
+                                </td>
+                                <td rowspan="2">Serangan Pyro memberikan 1.5x lebih banyak damage.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px"> 2. Hydro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Electro-Charged</td>
+                                <td>
+                                    <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px"> Hydro <br>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> Electro
+                                </td>
+                                <td rowspan="2">Memberikan damage Electro seiring waktu dan menyebar ke musuh terdekat.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                     Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Overloaded</td>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> Pyro <br>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> Electro
+                                </td>
+                                <td rowspan="2">Memberikan damage AoE Pyro dan mendorong mundur musuh.</td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Frozen</td>
+                                <td>
+                                    <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px"> Hydro <br>
+                                    <img src="assets/image/logo/cryo.png" alt="Cryo Icon" width="40px"> Cryo
+                                </td>
+                                <td rowspan="2">Membekukan musuh.</td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Superconduct</td>
+                                <td>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> Electro <br>
+                                    <img src="assets/image/logo/cryo.png" alt="Cryo Icon" width="40px"> Cryo
+                                </td>
+                                <td rowspan="2">Mengurangi pertahanan fisik musuh.</td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Swirl</td>
+                                <td>
+                                    <img src="assets/image/logo/4element.png" alt="4 Element Icon" width="40px"> 1.
+                                    Pyro, Cryo, Electro, atau Hydro
+                                </td>
+                                <td rowspan="2">Menyebarkan elemen pertama di sekitar target kemudian memberikan damage
+                                    elemen dan Anemo.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/anemo.png" alt="Anemo Icon" width="40px"> 2. Anemo
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Crystallize</td>
+                                <td>
+                                    <img src="assets/image/logo/4element.png" alt="4 Element Icon" width="40px"> 1.
+                                    Pyro, Cryo, Electro, atau Hydro
+                                </td>
+                                <td rowspan="2">Menjatuhkan pecahan yang menciptakan perisai dengan resistensi tambahan
+                                    terhadap elemen saat diambil.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/geo.png" alt="Geo Icon" width="40px"> 2. Geo
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Burning</td>
+                                <td>
+                                    <img src="assets/image/logo/dendro.png" alt="Dendro Icon" width="40px"> 1. Dendro
+                                </td>
+                                <td rowspan="2">Membakar target, memberikan damage seiring waktu.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 2. Pyro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Bloom</td>
+                                <td>
+                                    <img src="assets/image/logo/dendro.png" alt="Dendro Icon" width="40px"> Dendro <br>
+                                    <img src="assets/image/logo/hydro.png" alt="Hydro Icon" width="40px"> Hydro
+                                </td>
+                                <td rowspan="2">Menciptakan Dendro Core.</td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Burgeon</td>
+                                <td>
+                                    <img src="assets/image/logo/dendrocore.png" alt="Dendro Icon" width="40px"> 1. Dendro
+                                    Core
+                                </td>
+                                <td rowspan="2">Pyro menyebabkan Dendro Core meledak, memberikan damage AoE Dendro.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/pyro.png" alt="Pyro Icon" width="40px"> 2. Pyro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Hyperbloom</td>
+                                <td>
+                                    <img src="assets/image/logo/dendrocore.png" alt="Dendro Icon" width="40px"> 1. Dendro
+                                    Core
+                                </td>
+                                <td rowspan="2">Damage Electro menyebabkan Dendro Core berubah menjadi misil yang langsung menarget musuh.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> 2. Electro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Quicken</td>
+                                <td>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> Electro <br>
+                                    <img src="assets/image/logo/dendro.png" alt="Dendro Icon" width="40px"> Dendro
+                                </td>
+                                <td rowspan="2">Menciptakan aura Quicken pada musuh. Dapat dipicu dalam urutan apapun.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    Urutan Bebas
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Aggravate</td>
+                                <td>
+                                    <img src="assets/image/logo/quicken.png" alt="Quicken Icon" width="40px"> 1. Quicken
+
+                                </td>
+                                <td rowspan="2">Meningkatkan damage serangan Electro.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/electro.png" alt="Electro Icon" width="40px"> 2. Electro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2" class="center">Spread</td>
+                                <td>
+                                    <img src="assets/image/logo/quicken.png" alt="Quicken Icon" width="40px"> 1. Quicken
+
+                                </td>
+                                <td rowspan="2">Meningkatkan damage serangan Dendro.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="assets/image/logo/dendro.png" alt="Dendro Icon" width="40px"> 2. Dendro
+                                </td>
+                            </tr>
+
+                            </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <!-- Section Nations (Right Column) -->
+            <aside class="right-column">
+                <article class="card" id="nations">
+                    <h2>Nations of Teyvat</h2>
+
+                    <section id="mondstadt">
+                        <h3>Mondstadt</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/monstadt.png" alt="Mondstadt" width="360" />
+                        </figure>
+                        <p>
+                            Mondstadt, kota kebebasan, adalah rumah bagi Anemo Archon dan berbagai karakter yang menggunakan
+                            kekuatan angin. Jelajahi ladang hijau yang subur, tebing tinggi, dan reruntuhan kuno.
+                        </p>
+                    </section>
+
+                    <section id="liyue">
+                        <h3>Liyue</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/liyue.png" alt="Liyue" width="360" />
+                        </figure>
+                        <p>
+                            Liyue, diperintah oleh Geo Archon, dikenal karena pegunungannya yang megah dan pelabuhannya yang sibuk.
+                            Liyue adalah pusat ekonomi Teyvat dan kaya akan sejarah serta budaya.
+                        </p>
+                    </section>
+
+                    <section id="inazuma">
+                        <h3>Inazuma</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/inazuma.png" alt="Inazuma" width="360" />
+                        </figure>
+                        <p>
+                            Inazuma, dikenal karena pemerintahan yang ketat dan lanskapnya yang indah, adalah tanah bagi
+                            Electro Archon. Negara ini kaya akan budaya dan cerita rakyat.
+                        </p>
+                    </section>
+
+                    <section id="sumeru">
+                        <h3>Sumeru</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/sumeru.jpg" alt="Sumeru" width="360" />
+                        </figure>
+                        <p>
+                            Sumeru, diperintah oleh Dendro Archon, adalah negeri para sarjana dan kebijaksanaan. Negara ini dikenal
+                            dengan hutan lebatnya, kehijauan yang subur, serta Akademiya yang terkenal, pusat pengetahuan di Teyvat.
+                        </p>
+                    </section>
+    
+                    <section id="fontaine">
+                        <h3>Fontaine</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/fontaine.png" alt="Fontaine" width="360" />
+                        </figure>
+                        <p>
+                            Fontaine, diperintah oleh Hydro Archon, adalah negara keadilan dan inovasi. Terkenal karena
+                            teknologi canggih dan budaya elegannya, Fontaine juga menjadi rumah bagi sistem peradilan
+                            yang bergengsi di Teyvat.
+                        </p>
+                    </section>
+    
+                    <section id="natlan">
+                        <h3>Natlan</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/natlan.png" alt="Natlan" width="360" />
+                        </figure>
+                        <p>
+                            Natlan adalah wilayah kekuasaan Pyro Archon, dikenal karena lanskapnya yang berapi-api dan semangat
+                            rakyatnya. Negara ini melambangkan kekuatan, dengan budaya yang merayakan pertempuran dan
+                            ketekunan.
+                        </p>
+                    </section>
+    
+                    <section id="snezhnaya">
+                        <h3>Snezhnaya</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/snezhnaya.jpg" alt="Snezhnaya" width="360" />
+                        </figure>
+                        <p>
+                            Snezhnaya, wilayah es yang diperintah oleh Cryo Archon, diselimuti misteri dan kekuatan. Ini adalah rumah
+                            bagi Fatui, organisasi kuat yang berupaya mempengaruhi seluruh Teyvat, dan tanah yang dingin serta tandus
+                            mencerminkan sifat penduduknya.
+                        </p>
+                    </section>
+    
+                    <section id="khaenriah">
+                        <h3>Khaenri'ah</h3>
+                        <figure>
+                            <img class="featured-image" src="assets/image/nation/khaenriah.jpg" alt="Khaenri'ah" width="360" />
+                        </figure>
+                        <p>
+                            Khaenri'ah adalah peradaban yang hilang yang berada di luar kekuasaan The Seven. Berbeda dengan
+                            negara-negara lain di Teyvat, Khaenri'ah adalah bangsa dengan teknologi dan inovasi yang maju. Kehancurannya
+                            merupakan momen penting dalam sejarah dunia, dan penduduknya kini hidup tersebar di seluruh daratan.
+                        </p>
+                    </section>
+    
+
+                </article>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Genshin Impact Fan Page by Andrya Naufal</p>
+    </footer>
+<script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
